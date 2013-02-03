@@ -10,7 +10,7 @@ Nothing fancy here, just add the sources to your project and go.
 
 To use this code, you must do two things:
 
-1.  `\#import "NSString+JavaAPI.h"`.
+1.  `#import "NSString+JavaAPI.h"`.
 
 2.  Pretend that you're coding in Java.
     
