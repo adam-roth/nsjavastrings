@@ -28,7 +28,9 @@ category.
 ### FAQ
 
 **_Why create a Java-like String API for Objective-C?_**<br />
-Because having worked with both Java Strings and NSString's I found the latter to be lacking in some areas.  For example, it should not be necessary to say `[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]` when all I want to do is trim leading and trailing whitespace.  Saying `[str trim]` is simpler and more intuitive and less likely to leave you with carpal-tunnel.
+Because having worked with both Java Strings and NSString's I found the latter to be lacking in some areas.  For example, it should not be necessary to say `[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]` when all I want to do is trim leading and trailing whitespace.  
+
+Saying `[str trim]` is simpler and more intuitive and less likely to leave you with carpal-tunnel.
 
 **_Why should I use this library?_**<br />
 Use this library if you've got experience with Java and find yourself occasionally frustrated by the more obtuse and/or verbose aspects of the standard NSString API.
